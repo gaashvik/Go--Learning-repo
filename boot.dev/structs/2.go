@@ -15,7 +15,7 @@ type b struct {
 }
 
 func main() {
-	wer := b{a: a{a: 8, b: 9}, c: 10, d: 45}
-	fmt.Println(wer.b)
+	wer := b{a: a{a: 8, b: 9}, c: 10, d: 45} //initialization is similar to nested structs
+	fmt.Println(wer.b)                       //direct access to b instead of .a.b
 
 }
